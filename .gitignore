@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data Files
+# Ignore CSVs and datasets to prevent bloat and data leaks
+data/*.csv
+data/*.zip
+data/*.gz
+data/*.parquet
+# Allow keeping the directory structure
+!data/.gitkeep
+
+# Model Outputs and Artifacts
+# Ignore generated plots and trained models
+outputs/*.pkl
+outputs/*.png
+outputs/*.jpg
+outputs/*.joblib
+outputs/*.h5
+# Allow keeping the directory structure
+!outputs/.gitkeep
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
